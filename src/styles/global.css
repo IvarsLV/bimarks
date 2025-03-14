@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+:root {
+  --font-h1: 56px;
+  --font-h2: 40px;
+  --font-h3: 32px;
+  --font-p: 16px;
+  --font-button: 16px;
+
+  --line-normal: 1.5;
+  --line-relaxed: 1.6;
+
+  --color-background: #0F4A5E;
+  --color-text-primary: #f5f5f5;
+  --color-accent: #008460;
+  --color-hover-accent: #9ad7c7;
+  --color-secondary: #5A1F3D;
+  --font-sans: "Georgia", serif;
+}
+
+
+@layer base {
+  * {
+    font-weight: 400 !important;
+  }
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+    line-height: var(--line-normal);
+    font-weight: normal;
+    
+  }
+
+  a {
+    color: var(--color-text-primary);
+    font-size:  var(--font-p);
+    font-weight: normal;
+  }
+
+  a:hover {
+    color: var(--color-hover-accent);
+  }
+
+  h1 {
+    font-size: var(--font-h1);
+  }
+
+  h2 {
+    font-size: var(--font-h2);
+  }
+
+  h3 {
+    font-size: var(--font-h3);
+  }
+
+  p {
+    font-size: var(--font-p);
+    line-height: var(--line-relaxed);
+
+  }
+
+  button {
+    font-size: var(--font-button);
+    background-color: var(--color-accent);
+  }
+
+  button:hover {
+    background-color: var(--color-hover-accent);
+  }
+
+}

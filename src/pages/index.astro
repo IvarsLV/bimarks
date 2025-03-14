@@ -1,0 +1,141 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+---
+
+<MainLayout title="Главная">
+  <section id="home" class="relative text-center bg-[url('herobg.png')] bg-center bg-cover bg-no-repeat min-h-screen min-w-screen overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-animation"></div>
+    <div class="relative container mx-auto flex flex-col justify-center items-center min-h-screen z-0">
+      <div class="absolute bottom-0 left-0 bg-[var(--color-secondary)]/50 rounded-t-3xl text-left p-4"> 
+        <h1 class="text-8xl m-10">Мы строим. <br> Вы достигаете цели.</h1>
+      </div>
+    </div> 
+  </section>
+
+  <section id="about" class="py-20 bg-[var(--color-accent)]">
+    <div class="container mx-auto flex flex-col items-center">
+      <h2 class="text-4xl text-center pb-20">Кто мы?</h2>
+
+      <div class="flex flex-row items-start justify-between w-full">
+        
+        <!-- Левая колонка с описанием -->
+        <div class="w-1/2 flex flex-col justify-center pr-12">
+          <h4 class="text-2xl font-semibold mb-4">BIMARKS – строительные технологии нового поколения</h4>
+          <p class="leading-7 text-lg ">
+            Основанная в 2025 году, BIMARKS — это команда профессионалов с многолетним опытом в дорожном строительстве, инженерных сетях и благоустройстве. Мы применяем новейшие технологии, включая BIM-моделирование и цифровой контроль, создавая инфраструктуру будущего.
+          </p>
+          <p class="leading-7 text-lg mt-4">
+            Наша миссия — точность, эффективность и прозрачность на каждом этапе проекта. Используем передовые геодезические технологии и современные строительные методики для достижения наилучших результатов.
+          </p>
+        </div>
+
+        <!-- Правая колонка с карточками преимуществ -->
+        <div class="w-1/2 grid grid-cols-2 gap-6">
+          
+          <!-- Карточка 1 -->
+          <div class="p-6 bg-white shadow-lg rounded-lg flex flex-col items-center text-center hover:scale-105 transition-transform">
+            <img src="/icons/technology.svg" alt="Современные технологии" class="w-12 h-12 mb-3">
+            <h4 class="text-xl text-[var(--color-background)] font-semibold">Современные технологии</h4>
+            <p class="text-sm text-gray-600">Используем GPS-приборы, 3D-управление техникой и BIM-отчетность для точности и эффективности на каждом этапе строительства.</p>
+          </div>
+
+          <!-- Карточка 2 -->
+          <div class="p-6 bg-white shadow-lg rounded-lg flex flex-col items-center text-center hover:scale-105 transition-transform">
+            <img src="/icons/time.svg" alt="Оперативность и сроки" class="w-12 h-12 mb-3 ">
+            <h4 class="text-xl font-semibold text-[var(--color-background)]">Оперативность и сроки</h4>
+            <p class="text-sm text-gray-600">Четкое планирование и современные технологии позволяют нам сдавать проекты быстрее и эффективнее без потери качества.</p>
+          </div>
+
+          <!-- Карточка 3 -->
+          <div class="p-6 bg-white shadow-lg rounded-lg flex flex-col items-center text-center hover:scale-105 transition-transform">
+            <img src="/icons/specialist.svg" alt="Опытные специалисты" class="w-12 h-12 mb-3">
+            <h4 class="text-xl font-semibold text-[var(--color-background)]">Опытные специалисты</h4>
+            <p class="text-sm text-gray-600">Опыт работы на крупных строительных объектах и знание современных стандартов позволяют нам реализовывать проекты любой сложности.</p>
+          </div>
+
+          <!-- Карточка 4 -->
+          <div class="p-6 bg-white shadow-lg rounded-lg flex flex-col items-center text-center hover:scale-105 transition-transform">
+            <img src="/icons/quality.svg" alt="Гарантия качества" class="w-12 h-12 mb-3">
+            <h4 class="text-xl font-semibold text-[var(--color-background)]">Гарантия качества</h4>
+            <p class="text-sm text-gray-600">Соблюдаем все стандарты, применяем инновационные методы и контролируем качество на всех этапах.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="pt-20 min-h-screen">
+    <div class="relative container mx-auto flex flex-col justify-center items-center">
+      <h2 class="text-4xl text-center pb-20">Что мы делаем?</h2>
+
+      <!-- CD -->
+      <div class="flex flex-row justify-between items-center w-full">
+          
+          <div class="w-1/2 min-h-[600px] bg-[url('/cd.png')] hover:bg-[url('/cdH.png')] bg-[var(--color-secondary)] bg-center bg-cover bg-no-repeat flex items-center justify-center transition-all duration-500 rounded-tl-xl">
+            <span class="hidden">Фоновое изображение</span>
+          </div>
+   
+          <div class="w-1/2 min-h-[600px] bg-[var(--color-secondary)] flex flex-col items-center justify-center p-12 gap-10 rounded-tr-xl"> 
+            <h3 class="text-3xl">Дорожные работы</h3>
+            <p class="">Полный комплекс работ по строительству, реконструкции и ремонту дорог различного назначения — от магистралей и городских улиц до частных территорий, парковочных зон и промышленных объектов. Мы выполняем укладку асфальта, мощение брусчаткой, установку бордюров, обустройство ливневой канализации и водоотводных систем. Комплексно проводим земляные работы, включая подготовку оснований, разработку и уплотнение грунта, устройство песчаных и щебеночных оснований, что гарантирует надежность дорожного покрытия на долгие годы.<br><br>
+              Мы создаем дороги, устойчивые к высоким нагрузкам и неблагоприятным погодным условиям, используя передовые технологии и материалы. Выполняем организацию å развязок, пешеходных переходов, велодорожек, парковочных зон, тротуаров и подъездных путей. Работы ведутся с соблюдением всех современных нормативов и требований безопасности, а также с применением современных технологий контроля качества. Наш подход позволяет обеспечить максимальную долговечность, безопасность и удобство эксплуатации дорожных объектов.</p>
+          </div>
+      </div>
+
+      <!-- LKT ELT -->
+      <div class="flex flex-row justify-between items-center w-full">
+          
+
+        <div class="w-1/2 min-h-[600px] bg-[var(--color-background)] flex flex-col items-center justify-center p-12 gap-10"> 
+          <h3 class="text-3xl">Инженерные сети</h3>
+          <p class="">Комплексное проектирование, строительство и модернизация инженерных коммуникаций, обеспечивающих бесперебойное функционирование объектов. Мы выполняем прокладку водопроводных и канализационных сетей, монтаж очистных сооружений, обустройство колодцев, установку систем ливневого дренажа и водоотведения. Разрабатываем и реализуем инженерные решения для эффективного использования ресурсов и повышения надежности инфраструктуры.
+            <br><br>
+            В сфере электромонтажных работ мы предоставляем подключение объектов к электроснабжению, монтаж распределительных щитов, трансформаторных подстанций, уличного освещения и системы резервного питания. Также выполняем установку слаботочных систем, включая видеонаблюдение, охранную сигнализацию, систему контроля доступа, пожарную безопасность, интернет-сети и автоматизированные системы управления зданием. Благодаря использованию передовых технологий и точному соблюдению нормативных требований, мы обеспечиваем надежность, энергоэффективность и долгий срок службы всех инженерных коммуникаций. 
+        </div>
+        
+        <div class="w-1/2 min-h-[600px] bg-[url('/lkt.png')] hover:bg-[url('/lktH.png')]  bg-center bg-cover bg-no-repeat flex items-center justify-center transition-all duration-500">
+          <span class="hidden">Фоновое изображение</span>
+        </div>
+      </div>
+        <!-- LAB -->
+      <div class="flex flex-row justify-between items-center w-full ">
+          
+        <div class="w-1/2 min-h-[600px] bg-[url('/lab.png')] hover:bg-[url('/labH.png')] bg-[var(--color-accent)] bg-center bg-cover bg-no-repeat flex items-center justify-center transition-all duration-500 rounded-bl-xl">
+          <span class="hidden">Фоновое изображение</span>
+        </div>
+ 
+        <div class="w-1/2 min-h-[600px] bg-[var(--color-accent)] flex flex-col items-center justify-center p-12 gap-10 rounded-br-xl"> 
+          <h3 class="text-3xl">Дорожные работы</h3>
+          <p class="">Полный комплекс работ по строительству, реконструкции и ремонту дорог различного назначения — от магистралей и городских улиц до частных территорий, парковочных зон и промышленных объектов. Мы выполняем укладку асфальта, мощение брусчаткой, установку бордюров, обустройство ливневой канализации и водоотводных систем. Комплексно проводим земляные работы, включая подготовку оснований, разработку и уплотнение грунта, устройство песчаных и щебеночных оснований, что гарантирует надежность дорожного покрытия на долгие годы.<br><br>
+            Мы создаем дороги, устойчивые к высоким нагрузкам и неблагоприятным погодным условиям, используя передовые технологии и материалы. Выполняем организацию å развязок, пешеходных переходов, велодорожек, парковочных зон, тротуаров и подъездных путей. Работы ведутся с соблюдением всех современных нормативов и требований безопасности, а также с применением современных технологий контроля качества. Наш подход позволяет обеспечить максимальную долговечность, безопасность и удобство эксплуатации дорожных объектов.</p>
+        </div>
+    </div>
+
+    </div>
+  </section>
+
+
+</MainLayout>
+
+<style>
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.bg-gradient-animation {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(-45deg, #40122C, #083643, #008460,#083643, #40122C );
+  background-size: 300% 300%;
+  animation: gradientAnimation 12s ease infinite;
+  opacity: 0.30;
+  z-index: 0;
+}
+</style>
+
+<style>
+
+</style>
