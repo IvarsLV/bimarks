@@ -4,15 +4,16 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   css: ['~/assets/css/main.css'],
   ssr: false,
-  buildDir: 'dist',  // Указываем папку для сборки
+  app: {
+    baseURL: '/',
+    buildAssetsDir: 'assets/',
+  },
   vite: {
     plugins: [
       tailwindcss(),
     ],
   },
-
   modules: ["v-gsap-nuxt", '@nuxtjs/i18n'],
-
   components: [
     {
       path: "~/components",
@@ -36,5 +37,4 @@ export default defineNuxtConfig({
       redirectOn: 'root'
     }
   },
-
 });
