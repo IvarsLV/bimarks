@@ -27,6 +27,7 @@ const updateMetaTags = () => {
     title: t('meta.title'),
     meta: [
       { name: 'description', content: t('meta.description') },
+      { name: 'keywords', content: t('meta.keywords') }, // Добавить ключевые слова
       { property: 'og:title', content: t('meta.title') },
       { property: 'og:description', content: t('meta.description') },
       { property: 'og:type', content: 'website' },

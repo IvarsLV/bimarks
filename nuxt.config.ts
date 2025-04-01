@@ -8,12 +8,21 @@ export default defineNuxtConfig({
     baseURL: '/',
     buildAssetsDir: 'assets/',
   },
+  site: { 
+    url: 'https://bimarks.lv', 
+    }, 
   vite: {
     plugins: [
       tailwindcss(),
     ],
   },
-  modules: ["v-gsap-nuxt", '@nuxtjs/i18n'],
+  modules: [
+    "v-gsap-nuxt",
+    '@nuxtjs/i18n',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots',
+    'nuxt-schema-org',
+  ],
   components: [
     {
       path: "~/components",
