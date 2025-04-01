@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+
+:root {
+  --font-h1: 48px;
+  --font-h2: 36px;
+  --font-h3: 30px;
+  --font-h5: 18px;
+  --font-m: 20px;
+  --font-p: 16px;
+  --font-button: 20px;
+
+  --line-normal: 1.5;
+  --line-relaxed: 1.6;
+
+  --color-background: #083643;
+  --color-text-primary: #f5f5f5;
+  --color-accent: #206440;
+  --color-hover-accent: #9ad7c7;
+  --color-secondary: #40122C;
+}
+
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+ }
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+  body {
+    font-family: "Noto Serif", serif;
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+  }
+
+  a {
+    color: var(--color-text-primary);
+    font-size:  var(--font-p);
+    font-weight: normal;
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: var(--color-hover-accent);
+  }
+
+  h1 {
+    font-size: var(--font-h1);
+    line-height: 1.1em;
+    cursor: default;
+  }
+
+  h2 {
+    font-size: var(--font-h2);
+    line-height: 1.1em;
+    cursor: default;
+  }
+
+  h3 {
+    font-size: var(--font-h3);
+    line-height: 1.2em;
+    cursor: default;
+  }
+
+  h5 {
+    font-size: var(--font-h5);
+    letter-spacing: 0.2em;
+    font-weight: normal;
+    cursor: default;
+  }
+
+  p {
+    font-size: var(--font-p);
+    line-height: 1.7em;
+    letter-spacing: 0.03em;
+    font-weight:350;
+    cursor: default;
+  }
+
+  #mobile-menu {
+    margin: 0;  /* Убирает возможные отступы */
+    padding: 0; /* Убирает возможные паддинги */
+ }
+
+}
+
+
+@media (max-width: 767px) {
+  h3 {
+    font-size: 24px; /* для мобильных устройств */
+  }
+  h4 {
+    font-size: 18px; /* для мобильных устройств */
+  }
+  p {
+    font-size: 14px; /* для мобильных устройств */
+  }
+}
+
+@media (max-width: 1025px) {
+  h3 {
+    font-size: 26px; /* для мобильных устройств */
+  }
+
+}

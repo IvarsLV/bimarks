@@ -1,0 +1,60 @@
+{
+    "meta": {
+      "title": "Roadworks & Utility Networks in Latvia — BIMARKS",
+      "description": "BIMARKS is a full-cycle construction partner in Latvia. Roadworks, utility networks, landscaping, and BIM-based solutions for international clients.",
+      "keywords": "construction, infrastructure, utility networks, roadworks, landscaping, BIM, contractor, geodesy, Latvia"
+    },
+    "menu": {
+      "home": "Home",
+      "about": "About",
+      "services": "Services",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title1": "We build.",
+      "title2": "You move forward.",
+      "subtitle": "Reliable construction in Latvia — built with precision, powered by technology.",
+      "button": "CONTACT US"
+    },
+    "about": {
+        "title": "Who are we?",
+        "subtitle": "BIMARKS is a construction company from Latvia specializing in infrastructure and utility systems.",
+        "text1": "BIMARKS is a modern construction company based in Latvia. We focus on infrastructure development, including roadworks, utility networks, and landscaping. Our team consists of experienced engineers, surveyors, and specialists who deliver reliable and well-executed construction solutions using advanced technologies and proven methods.",
+        "text2": "We implement BIM modeling, 3D visualization, digital documentation, and automated quality control to ensure precision and project transparency. These technologies allow us to reduce delays, minimize risks, and maintain full control over each construction phase — especially important in cross-border collaborations.",
+        "text3": "From geodetic surveying to complex as-built documentation, our experts deliver data-driven accuracy that meets both local and EU standards. We work with modern instruments, follow up-to-date safety protocols, and maintain clear communication with supervisory bodies.",
+        "text4": "We manage the full construction process—from planning and site preparation to final handover. Our work meets European standards, and we take pride in delivering high-quality results on time and with full technical transparency. We build solutions designed to last.",
+        "card1Title": "Modern Construction Technologies",
+        "card1Text": "We use GPS equipment, 3D machine control, and BIM reporting to ensure accuracy, efficiency, and full quality control throughout every construction phase.",
+        
+        "card2Title": "Precision Planning and Delivery",
+        "card2Text": "Clear planning and advanced digital tools help us complete construction projects quickly and efficiently without compromising quality or safety.",
+        
+        "card3Title": "Qualified Local Team",
+        "card3Text": "Our experts have worked on large infrastructure projects and follow modern construction standards, enabling us to handle tasks of any complexity with confidence."
+       },
+    "services": {
+      "title": "Our services",
+      "subtitle": "WE BUILD, CONNECT, IMPROVE.",
+      "cdTitle": "Road Works",
+      "cdText1": "We deliver a complete range of road construction, reconstruction, and repair services across Latvia—from national highways and busy city streets to private properties, industrial zones, and parking areas. Our skilled teams handle asphalt paving, stone surfacing, curb installation, stormwater drainage systems, and full-scale groundwork. With high standards and advanced technology, we prepare solid sand and gravel bases that ensure road durability for years to come, trusted by international clients.",
+      "cdText2": "Using modern EU-certified materials and advanced technology, we build roads that handle heavy loads and harsh climates. Our services cover traffic interchanges, pedestrian crossings, bike lanes, sidewalks, driveways, and well-planned parking zones. Every project complies with European quality and safety standards. As a trusted Latvian contractor, we provide long-term, cost-effective infrastructure for international clients seeking reliable road construction solutions tailored to local conditions.",
+      "lktTitle": "Engineering Networks",
+      "lktText1": "We install external utility networks, including water supply, sewage, stormwater and drainage systems for projects of various types. Our services include pipe laying, installation of manholes, pump stations, valves, and all required connection components. We handle network integration with existing mains, perform joint sealing, flushing, and mandatory hydraulic testing. All works comply with current building codes and are carried out with strict quality control and focus on long-term operational reliability.",
+      "lktText2": "We carry out electrical installation and low-energy system integration for residential, commercial, and industrial facilities. Our work includes cable routing, mounting of switchboards, lighting systems, power supply units, and backup power sources. We also install video surveillance systems, access control, fire alarms, internet networks, and automation equipment. Using certified components and following safety standards, we ensure stable, energy-efficient, and long-term performance of every system we deliver.",
+      "labTitle": "Landscaping",
+      "labText1": "We provide complete landscaping and outdoor development services, including planting of trees, shrubs, lawns, hedges, and flowerbeds. We install paving tiles, curbstones, walking paths, and recreational zones tailored to the site’s purpose. Public amenities such as benches, litter bins, lighting systems, playgrounds, and sports areas are also integrated into the design. We focus on comfort, aesthetics, and functionality to create a well-balanced and visually appealing environment that meets everyday needs.",
+      "labText2": "We design and build recreational spaces with decorative elements such as fountains, artificial ponds, rock gardens, flower installations, and landscape highlights. We use durable, weather-resistant materials that maintain their appearance over time, even in harsh conditions. All features are installed with safety, maintenance, and visual balance in mind. The result is a functional, aesthetic outdoor environment that enhances the usability of the space and improves daily comfort for all users, ensuring long-term value."
+     },
+     "footer": {
+        "copyright": "All rights reserved",
+        "privacyPolicy": "Privacy Policy",
+        "termsOfService": "Terms of Service",
+        "createdBy": "Created by",
+        "name": "Name",
+        "registrationNumber": "Reg. Number",
+        "legalAddress": "Legal Address",
+        "bank": "Bank",
+        "contactUs": "Contact Us",
+        "subscribe": "Subscribe"
+      }
+  }

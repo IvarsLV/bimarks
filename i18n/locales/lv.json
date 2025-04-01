@@ -1,0 +1,62 @@
+{
+    "meta": {
+      "title": "Ceļu būve un inženieru tīkli Latvijā — BIMARKS",
+      "description": "BIMARKS — pilna cikla būvniecības partneris Latvijā. Ceļu būvniecība, inženieru tīkli, labiekārtošana un BIM tehnoloģijas.",
+      "keywords": "būvniecība, būvuzņēmējs, ceļi, inženierkomunikācijas, labiekārtošana, BIM, infrastruktūra, ģeodēzija, Latvija"
+    },
+    "menu": {
+      "home": "Sākums",
+      "about": "Par mums",
+      "services": "Pakalpojumi",
+      "contact": "Kontakti"
+    },
+    "hero": {
+      "title1": "Mēs būvējam.",
+      "title2": "Jūs sasniedzat.",
+      "subtitle": "Tehnoloģijas, pieredze un komanda — jūsu uzticamais resurss katrā projektā.",
+      "button": "SAZINĀTIES"
+    },
+    "about": {
+        "title": "Kas mēs esam?",
+        "subtitle": "BIMARKS — infrastruktūras būvniecība ar jaunākajām tehnoloģijām.",
+        "text1": "BIMARKS ir inovatīvs būvniecības uzņēmums, kas specializējas infrastruktūras projektu īstenošanā visā Latvijā. Mēs apvienojam pieredzējušu inženieru, ģeodēzistu un būvniecības speciālistu komandu ar praktisku pieredzi ceļu būvē, inženieru tīklu ierīkošanā un teritoriju labiekārtošanā. Mūsu mērķis ir radīt ilgtspējīgu vidi ar kvalitatīviem un tehnoloģiski pamatotiem risinājumiem.",
+        "text2": "Mūsu darba pamatā ir BIM modelēšana, 3D vizualizācija, digitālās atskaites un automatizēta kvalitātes kontrole. Šīs tehnoloģijas ļauj precīzi plānot, pārvaldīt resursus un mazināt kļūdas visos projekta posmos. Mēs nodrošinām caurspīdīgu, efektīvu un kvalitatīvu būvniecības procesu.",
+        "text3": "Mūsu komanda spēj sagatavot jebkuras sarežģītības izpildes dokumentāciju, izmantojot ģeodēziskos instrumentus un digitālos mērīšanas risinājumus. Mēs garantējam datu precizitāti, atbilstību normām un uzticamu rezultātu, kas atbilst pasūtītāja un institūciju prasībām.",
+        "text4": "BIMARKS ir jūsu tehnoloģiskais partneris infrastruktūras attīstībā. Mēs uzņemamies pilnu projekta izpildes ciklu — no sagatavošanas līdz nodošanai ekspluatācijā. Garantējam kvalitāti, termiņus un atbilstību mūsdienu standartiem. Mūsu risinājumi ir radīti ilgtermiņam.",
+        "card1Title": "Mūsdienīgas būvniecības tehnoloģijas",
+        "card1Text": "Izmantojam GPS ierīces, 3D tehnikas vadību un BIM atskaites, lai nodrošinātu precizitāti, efektivitāti un kvalitātes kontroli visos būvniecības posmos.",
+        
+        "card2Title": "Precīza plānošana un izpilde",
+        "card2Text": "Precīza plānošana un moderni digitālie rīki ļauj mums pabeigt projektus ātri, saglabājot augstu kvalitāti un atbildību par rezultātu.",
+        
+        "card3Title": "Pieredzējuša komanda un kvalitāte",
+        "card3Text": "Mūsu speciālistiem ir pieredze lielu infrastruktūras objektu būvniecībā, kā arī zināšanas par mūsdienu standartiem un tehnoloģijām jebkura apjoma darbiem."
+      },
+    "services": {
+      "title": "Mūsu pakalpojumi",
+      "subtitle": "MĒS BŪVĒJAM, SAVIENOJAM, LABIEKĀRTOJAM.",
+      "cdTitle": "Ceļu darbi",
+      "cdText1": "Mēs nodrošinām pilnu ceļu būvniecības, pārbūves un remonta darbu klāstu visā Latvijā—no valsts nozīmes maģistrālēm un pilsētas ielām līdz privātiem īpašumiem, stāvvietām un industriālām teritorijām. Veicam asfaltēšanu, bruģēšanu, apmaļu uzstādīšanu, lietus ūdens novadīšanas sistēmu izbūvi un visus zemes darbus. Mūsu komanda sagatavo ceļu pamatus, izmantojot smilts un šķembu slāņus, nodrošinot seguma ilgmūžību un uzticamību katrā projektā.",
+      "cdText2": "Ceļus būvējam ar modernām Eiropas tehnoloģijām un kvalitatīviem materiāliem, lai tie spētu izturēt augstu slodzi un skarbos klimatiskos apstākļus. Izstrādājam krustojumus, veloceliņus, ietves, piebraucamos ceļus, gājēju pārejas un autostāvvietas. Visi darbi atbilst ES drošības un kvalitātes standartiem. Ārvalstu klientiem, kuri meklē uzticamu ceļu būvniecības partneri Latvijā, mēs piedāvājam ilgtspējīgu un drošu infrastruktūru.",
+      "lktTitle": "Inženieru tīkli",
+      "lktText1": "Ārējo inženierkomunikāciju izbūvē nodrošinām pilnu darbu klāstu: ūdensvada, kanalizācijas, lietus un drenāžas sistēmas izbūvi dažāda mēroga objektiem. Tiek veikta cauruļvadu ieklāšana, aku un sūkņu staciju montāža, kā arī visu nepieciešamo savienojumu izbūve. Sistēmas tiek pieslēgtas esošajiem tīkliem ar hermetizāciju, skalošanu un hidrauliskiem testiem. Visi darbi tiek veikti atbilstoši būvnormām, ar detalizētu kvalitātes kontroli un ilgtspējīgas ekspluatācijas nodrošinājumu.",
+      "lktText2": "Elektroapgādes un zema sprieguma sistēmas tiek izbūvētas saskaņā ar objekta specifiku – gan jaunbūvēm, gan rekonstrukcijām. Mūsu darbos ietilpst kabeļu ieklāšana, sadales skapju un apgaismojuma ierīkošana, barošanas avotu un rezerves bloku uzstādīšana. Nodrošinām arī drošības risinājumus: videonovērošanu, signalizāciju, piekļuves kontroli, IT tīklus un automatizāciju. Visi risinājumi tiek īstenoti, ievērojot energoefektivitāti, drošību un ilgtspējīgas sistēmas darbību.",
+      "labTitle": "Labiekārtošana un apzaļumošana",
+      "labText1": "Piedāvājam pilnvērtīgu teritoriju labiekārtošanu ar akcentu uz estētisku, zaļu un funkcionālu vidi. Stādām kokus, krūmus, daudzgadīgus augus un veidojam zālienus, puķu dobes, dzīvžogus un ainavu grupas. Ierīkojam atpūtas zonas ar soliņiem, atkritumu urnām, apgaismojumu, dekoratīvajiem risinājumiem un mazajām arhitektūras formām. Visi elementi tiek saskaņoti ar vides funkciju un stilu, nodrošinot harmoniju, ērtību un ilgtspēju ikdienas lietošanā.",
+      "labText2": "Veidojam relaksējošas un vizuāli pievilcīgas zonas ar ainaviskām kompozīcijām — strūklakām, dekoratīviem dīķiem, akmens dārziem, puķu elementiem un tematiskām instalācijām. Materiāli tiek izvēlēti pēc izturības un piemērotības klimatiskajiem apstākļiem, garantējot ilgu kalpošanas laiku bez apjoma zuduma. Projektēšana tiek veikta individuāli, ņemot vērā vietas specifiku, lietojuma mērķi un klienta vēlmes. Mēs radām vidi, kas iedvesmo un kalpo cilvēkiem."
+    },
+    "footer": {
+        "copyright": "Visas tiesības aizsargātas",
+        "privacyPolicy": "Privātuma politika",
+        "termsOfService": "Pakalpojumu noteikumi",
+        "createdBy": "Izstrādāts",
+        "name": "Nosaukums",
+        "registrationNumber": "Reģ. numurs",
+        "legalAddress": "Juridiskā adrese",
+        "bank": "Banka",
+        "swift": "SWIFT",
+        "iban": "IBAN",
+        "contactUs": "Sazinieties",
+        "subscribe": "Parakstīties"
+      }
+  }
