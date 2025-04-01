@@ -36,7 +36,7 @@
       <p class="mt-4 about-text">{{ t('about.text4') }}</p>
 
       <!-- Карточки преимуществ -->
-      <div class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-15">
+      <div class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-15">
         <!-- Карточка 1 -->
         <div class="p-6 bg-white/90 shadow-lg rounded-lg flex flex-col items-center text-center hover:scale-103 hover:shadow-xl transition-transform gap-4 about-card">
           <img src="/icons/technology.svg" alt="Современные технологии" class="w-15 h-15">
@@ -68,7 +68,7 @@
     <img src="/icons/services.png" alt="" class="w-full h-full object-contain" />
   </div>
 
-  <div class="relative container px-6 sm:px-10 md:px-20 lg:px-20 mx-auto flex flex-col justify-center gap-4 lg:gap-0 items-center">
+  <div class="relative container px-6 sm:px-10 md:px-20 lg:px-20 mx-auto flex flex-col justify-center lg:gap-0 items-center">
     <h5 class="text-center uppercase mb-5 services-title">{{ t('services.title') }}</h5>
     <h3 class="text-center font-semibold uppercase services-subtitle">{{ t('services.subtitle') }}</h3>
 
@@ -124,7 +124,7 @@
 
   
 
-<div id="scrollTopBtn" class="fixed bottom-10 right-25 z-50 opacity-0 pointer-events-none cursor-pointer bg-white text-[var(--color-accent)] p-3 rounded-full shadow-lg transition-opacity duration-300">
+<div id="scrollTopBtn" class="fixed bottom-10 right-10 lg:bottom-10 lg:right-25 z-50 opacity-0 pointer-events-none cursor-pointer bg-white text-[var(--color-accent)] p-3 rounded-full shadow-lg transition-opacity duration-300">
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
   </svg>

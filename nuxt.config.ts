@@ -7,6 +7,14 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/',
     buildAssetsDir: 'assets/',
+    head: {
+      meta: [
+        { property: 'og:title', content: 'Ceļu būve un inženieru tīkli Latvijā — BIMARKS' },
+        { property: 'og:description', content: 'BIMARKS — pilna cikla būvniecības partneris Latvijā. Ceļu būvniecība, inženieru tīkli, labiekārtošana un BIM tehnoloģijas.' },
+        { property: 'og:image', content: '/og-image.jpg' }, // Укажите путь к изображению для og:image
+        { property: 'og:type', content: 'website' },
+      ],
+    },
   },
   site: { 
     url: 'https://bimarks.lv', 
@@ -16,6 +24,7 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
+ 
   modules: [
     "v-gsap-nuxt",
     '@nuxtjs/i18n',

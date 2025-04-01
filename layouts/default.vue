@@ -27,16 +27,30 @@ const updateMetaTags = () => {
     title: t('meta.title'),
     meta: [
       { name: 'description', content: t('meta.description') },
-      { name: 'keywords', content: t('meta.keywords') }, // Добавить ключевые слова
-      { property: 'og:title', content: t('meta.title') },
-      { property: 'og:description', content: t('meta.description') },
-      { property: 'og:type', content: 'website' },
-      { property: 'og:url', content: `${window.location.origin}${localePath('/')}` },
-      { property: 'og:image', content: '/og-image.jpg' } // Желательно сделать универсальное изображение (1200×630px)
+      { name: 'keywords', content: t('meta.keywords') },
     ],
     link: [
       { rel: 'alternate', hreflang: lang, href: `${window.location.origin}${localePath('/')}` },
       { rel: 'canonical', href: `${window.location.origin}${localePath('/')}` }
+    ],
+    script: [
+      {
+        innerHTML: `
+          (function() {
+            var script = document.createElement('script');
+            script.src = "https://www.googletagmanager.com/gtag/js?id=G-RVXSFT7SXL";
+            script.async = true;
+            document.head.appendChild(script);
+            script.onload = function() {
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-RVXSFT7SXL');
+            };
+          })();
+        `,
+        type: 'text/javascript',
+      }
     ]
   })
 }
