@@ -45,7 +45,7 @@
             ><img src="/icons/mail.png" alt="Email" />
             <p>
               <a href="mailto:siabimarks@gmail.com" class="hover:underline"
-                >siabimarks@gmail.com</a
+                >siabimarks@gmail.com </a
               >
             </p></span
           >
