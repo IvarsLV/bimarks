@@ -21,14 +21,14 @@
           <strong>{{ $t("footer.registrationNumber") }}:</strong> 40203622629
         </p>
         <p>
-          <strong>{{ $t("footer.legalAddress") }}:</strong> Lielirbes iela 11 –
-          81, Rīga, LV-1046
+          <strong>{{ $t("footer.legalAddress") }}:</strong> Siguldas iela 6D,
+          Daugavpils, LV-5404
         </p>
         <p>
-          <strong>{{ $t("footer.bank") }}:</strong> Citadele banka AS
+          <strong>{{ $t("footer.bank") }}:</strong> BluOr Bank AS
         </p>
-        <p><strong>SWIFT:</strong> PARXLV22</p>
-        <p><strong>IBAN:</strong> LV94 PARX 0033 1765 3000 1</p>
+        <p><strong>SWIFT:</strong> CBBRLV22</p>
+        <p><strong>IBAN:</strong> LV13 CBBR 112C 3943 0001 0</p>
       </div>
 
       <!-- Контакты -->
@@ -45,8 +45,8 @@
             ><img src="/icons/mail.png" alt="Email" />
             <p>
               <a href="mailto:siabimarks@gmail.com" class="hover:underline"
-                >siabimarks@gmail.com </a
-              >
+                >siabimarks@gmail.com
+              </a>
             </p></span
           >
           <span class="flex items-center gap-2"
