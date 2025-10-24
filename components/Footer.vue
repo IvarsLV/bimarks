@@ -28,7 +28,7 @@
           <strong>{{ $t("footer.bank") }}:</strong> BluOr Bank AS
         </p>
         <p><strong>SWIFT:</strong> CBBRLV22</p>
-        <p><strong>IBAN:</strong> LV13 CBBR 112C 3943 0001 0</p>
+        <p><strong>IBAN:</strong> LV13 CBBR 112C 3943 0001 0 </p>
       </div>
 
       <!-- Контакты -->
